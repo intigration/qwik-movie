@@ -10,6 +10,7 @@ export const Navbar = component$(() => {
   return (
     <nav class="bg-black px-6 py-8 text-black">
       <ul class="flex justify-around gap-10 md:w-10 md:flex-col md:justify-start">
+   
         <li class="hover:opacity-80">
           <a href={paths.index}>
             <ImgHome aria-label="Home" class="h-6 w-6" />
@@ -28,6 +29,11 @@ export const Navbar = component$(() => {
         <li class="hover:opacity-80">
           <a href={paths.search}>
             <ImgMagnifier aria-label="Search" class="h-6 w-6" />
+          </a>
+        </li>
+        <li>
+          <a class="" href="https://engr-farhan.netlify.app">
+          <div class="text-lg text-white">About</div>
           </a>
         </li>
       </ul>

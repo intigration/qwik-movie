@@ -6,7 +6,7 @@ import ImgQwik from "~/media/qwik.svg?jsx";
 export const Footer = component$(() => {
   return (
     <footer class="flex flex-col gap-4 px-8 py-20">
-      <div class="text-lg text-white">Qwik City Movies</div>
+      <div class="text-lg text-white">QWIK Builder</div>
       <div class="flex flex-row items-center gap-2">
         <span class="text-sm opacity-80">Made with</span>
         <StyledLink
@@ -17,8 +17,8 @@ export const Footer = component$(() => {
         </StyledLink>
       </div>
       <div class="flex flex-row items-center gap-2">
-        <span class="text-sm opacity-80">Design by</span>
-        <StyledLink href="https://movies.nuxt.space/">Nuxt Movies</StyledLink>
+        <span class="text-sm opacity-80">Developed by</span>
+        <StyledLink href="https://engr-farhan.netlify.app/">Muhammad Farhan</StyledLink>
       </div>
       <div class="text-sm opacity-80">
         This product uses the{" "}
@@ -28,7 +28,7 @@ export const Footer = component$(() => {
         but is not endorsed or certified by TMDB.
       </div>
       <div class="text-sm opacity-80">
-        <StyledLink href="https://github.com/wmalarski/qwik-city-movies">
+        <StyledLink href="https://github.com/intigration/qwik-city-movies">
           <ImgGitHub aria-label="GitHub repository" class="w-6 h-6" />
         </StyledLink>
       </div>
